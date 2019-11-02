@@ -1,7 +1,4 @@
-/*Name: Kathryn Jenkins
-Class: CSC362-001
-Professor: Dr. Fox
-HW: Assignment 1
+/*Name: Kathryn Nightingale
 Program Description: Program that takes two files and compares them, character by character.  It then outputs the percentage of mismatches, as well as the percentage of non-tested characters.  User can
 choose whether to test for case sensitivity, and whether or not to compare punctuation.
 */
@@ -46,7 +43,7 @@ void main() {
 				}
 			}
 		}
-		if (caseSensitivity == 1 && punctSensitivity == 0) { // WORKING testing for case sensitivity only
+		if (caseSensitivity == 1 && punctSensitivity == 0) { //testing for case sensitivity only
 			if (isalpha(ch) && isalpha(ch2)) {
 				if (ch != ch2) {
 					mismatch++;
@@ -56,7 +53,7 @@ void main() {
 				noTest++;
 			}
 		}
-		if (caseSensitivity == 0 && punctSensitivity == 1) { // WORKING testing for punctuation only
+		if (caseSensitivity == 0 && punctSensitivity == 1) { //testing for punctuation only
 			if (isalpha(ch) && isalpha(ch2)) {
 				if (tolower(ch) != tolower(ch2)) {
 					mismatch++;
@@ -68,7 +65,7 @@ void main() {
 				}
 			}
 		}
-		if (caseSensitivity == 0 && punctSensitivity == 0) { //WORKING testing for neither case sensitivity or punctuation
+		if (caseSensitivity == 0 && punctSensitivity == 0) { //testing for neither case sensitivity or punctuation
 			if (isalpha(ch) && isalpha(ch2)) {
 				if (tolower(ch) != tolower(ch2)) {
 					mismatch++;
