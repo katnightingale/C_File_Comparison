@@ -1,4 +1,4 @@
-/*Name: Kathryn Nightingale
+/*Name: Katherine Nightingale
 Program Description: Program that takes two files and compares them, character by character.  It then outputs the percentage of mismatches, as well as the percentage of non-tested characters.  User can
 choose whether to test for case sensitivity, and whether or not to compare punctuation.
 */
